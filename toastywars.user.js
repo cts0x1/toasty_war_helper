@@ -3,10 +3,11 @@
 // @description Hosp timers and spies on RW page! Shoutout cee tee ess and Zalp for hosp timer hint edit.
 // @namespace   finally.torn.FactionWallBattlestats
 // @match       https://www.torn.com/factions.php*
+// @update      https://github.com/cts0x1/toastedwarhelper/raw/main/toastywars.user.js
 // @run-at      document-end
 // @grant       GM_addStyle
 // @grant       GM_xmlhttpRequest
-// @version     1.28
+// @version     1.29
 // @author      finally
 // ==/UserScript==
 
