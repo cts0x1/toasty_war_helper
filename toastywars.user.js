@@ -446,7 +446,6 @@ function updateStatus(id, node) {
 		let minutes = Math.floor(totalSeconds / 60);
 		let seconds = Math.floor(totalSeconds % 60);
         if (minutes <= 2) { node.style.color = 'yellow'; } else { node.style.color = 'rgb(255, 122, 77)'; }
-        if (minutes <= 1) { node.style.color = 'green'; } else { node.style.color = 'rgb(0, 128, 0)'; }
 
 		node.innerHTML = `${hours.toString().padLeft(2, "0")}:${minutes.toString().padLeft(2, "0")}:${seconds.toString().padLeft(2, "0")}`;
 	}, 1000);
